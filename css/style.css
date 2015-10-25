@@ -1,0 +1,254 @@
+
+@media (min-width: 1200px) {
+	.container { 
+		width: 1200px; padding-right: 0; padding-left: 0; 
+	} 
+}
+
+*{font-family: "OpenSansRegular", sans-serif;}
+h1, h2, h3 {margin: 0;}
+ul {list-style: none;}
+
+.index-page {position: relative;}
+.index-page .header-wrapper{position: relative; z-index: 2;}
+.index-page .slider{position: absolute;top: 0;width: 100%;margin-bottom: 0px;}
+.index-page .content{margin-top: 625px;}
+
+.header-wrapper{background-color: rgba(2, 2, 2, 0.5);}
+.header-link{padding: 31px 0;}
+.header .phone {
+	margin: 0;
+	color: #22beff;
+	font-size: 22px;
+	font-family: "OpenSansSemiBold",sans-serif;
+	padding-top: 56px;
+	font-weight:700;
+	text-align: right;
+}
+
+.navigation {
+	padding-top: 58px;
+	text-align: right; 
+}
+
+.navigation ul {margin: 0;}
+.navigation ul li { display: inline-block; padding: 0 4px;}
+.navigation ul li a{
+	text-transform: uppercase;
+	font: 14px "OpenSansSemiBold",sans-serif;
+	color: #fff; 
+	font-weight:600;
+}
+
+.navigation ul li a:hover {
+	text-decoration: none;
+	color: #22beff;
+}
+
+.slider {height: 762px;width: 100%}
+.slider img{max-height: 100%;width: 100%;}
+
+/*section - about-us - start*/
+.about-us {
+	padding-bottom: 95px;
+}
+
+.about-us .section-header {
+	display: block;
+	margin: 10px auto 60px;
+	padding: 40px 0;
+	border-bottom: 2px solid #ebebeb;
+	width: 115px;
+}
+
+.about-us .section-header h3 {
+	color: #919296;
+	font: 22px "OpenSansRegular",sans-serif;
+	text-align: center;
+}
+
+.about-us h2 {
+	text-align: center;
+	font: 40px "OpenSansLight",sans-serif;
+	color: black;
+}
+
+.point-conteiner {
+	margin-top: 80px;
+}
+
+.point-deskr {
+	padding-left: 25px;
+}
+
+.point-deskr h3 {
+	margin: 20px 0 30px;
+	font-size: 24px;
+}
+
+.point-deskr p {
+	font-size: 14px;
+	color: #919296;
+}
+
+/*footer - start*/
+.foot-phone {
+	background-color: #2692ff;
+}
+
+.white-triangle {
+	height: 0;
+	width: 0;
+	content: " ";
+	border: 20px solid transparent;
+	border-top: 20px solid #fff;
+	margin: 0 auto;
+}
+
+.foot-phone p{
+	padding: 20px 0 60px;
+	color: #fff;
+	font: 33px "OpenSansLight",sans-serif;
+	text-align: center;	
+}
+
+.foot-contacts {
+	color: #595959;
+	background-color: #222;
+	font: 15px "OpenSansLight",sans-serif;
+}
+
+.foot-contacts p {
+	padding: 40px 0;
+	margin: 0;
+}
+
+.soc-btn ul {
+	float: right;
+	margin-top: 30px;
+}
+.soc-btn li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+
+
+/*page vacancies.html*/
+ /* Large Devices, Wide Screens */
+
+.vacancies {
+	color: #485560;
+}
+
+.vacancies .header-wrapper{
+	background-color: #fff;
+	border-top: 5px solid #2692ff;
+	border-bottom: 1px solid black;
+}
+
+.vacancies .navigation ul li a {
+	color: black;
+}
+
+.vacancies .navigation ul li a:hover {
+	color: #2692ff;
+	text-decoration: none;
+}
+
+.allin-vacans {
+	background-color: #f7f7f7;
+	padding-bottom: 55px;
+}
+
+.vacans-content h2{
+	margin: 40px 0;
+	font: 2em "OpenSansLight", sans-serif;
+}
+
+.vacans-content span {
+	color: #22b3f0;
+}
+
+.v-item {
+	padding: 30px 35px;
+	border: 1px solid #e8e8e8;
+	border-radius: 4px;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+
+.v-item .img {
+	padding: 0;
+	margin: 0;
+}
+
+.v-item-img {
+	width: 345px;
+	height: 235px;
+	border-radius: 4px;
+	border: none;
+	overflow: hidden;
+	position: relative;
+}
+
+.v-item p,
+.v-item li {
+	font: 13px "OpenSansRegular", sans-serif;
+}
+
+/*button zapolnit anketu*/
+.anketa-btn {
+	position: absolute;
+	left: 45px;
+	bottom: 27px;
+	background-color: #22b3f0;
+	border: none;
+	outline: none;
+	padding: 20px 0;
+	width: 245px;
+	text-align: center;
+	color: #fff;
+	font: 16.27px "OpenSansBold", sans-serif;
+	text-transform: uppercase;
+}
+
+.vacans-descr {
+	padding-left: 40px;
+}
+
+.vacans-descr h3 {
+	margin-bottom: 20px;
+	color: #22b3f0;
+	font: 20px "OpenSansSemiBold", sans-serif;
+}
+
+.vacans-descr h3 span {
+	font: 18px "OpenSansRegular", sans-serif;
+	color: #333;
+}
+
+.vacans-descr ul {
+	list-style: none;
+}
+
+.vacans-descr ul li:before {
+	content:"- ";
+}
+
+.vacans-tags img ,
+.vacans-tags p{
+	display: inline-block;
+}
+
+.vacans-tags p {
+	margin-left: 30px;
+}
+
+.vacans-tags li {
+	padding: 10px 0 20px;
+}
+
+.vacancies .white-triangle {
+	border-top: 20px solid #f7f7f7;
+}
